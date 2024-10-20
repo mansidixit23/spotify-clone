@@ -1,0 +1,173 @@
+.body {
+    padding-left: 20px;
+}
+
+.body-title {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.body-view {
+    font-size: 1rem;
+    color: white;
+    margin-right: 10%;
+}
+
+.body-view:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.body-grid {
+    overflow-x: scroll;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.body-list {
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 30px;
+    height: 400px;
+    width: 90%;
+}
+
+.song-card {
+    width: 300px;
+    height: 320px;
+    background-color: #181818;
+    padding: 24px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.song-card-list {
+    width: 180px;
+    height: 320px;
+    background-color: #181818;
+    padding: 24px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.song-card-detail {
+    padding-top: 10px;
+}
+
+.song-card-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 24px;
+}
+
+.song-card-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+    height: 50px;
+}
+
+.song-time {
+    display: flex;
+    color: white;
+    justify-content: flex-end
+}
+
+.song-artist {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 70px;
+}
+
+.song-artist span {
+    color: rgb(84, 106, 100);
+    font-style: italic;
+    padding-top: 2px;
+    font-weight: 400;
+}
+
+.list-container {
+    margin-bottom: 30px;
+    overflow-y: scroll;
+    width: 90vw;
+}
+
+.list {
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 600px;
+}
+
+.header-row {
+    display: grid;
+    grid-template-columns: 0.3fr 3fr 2fr 0.1fr;
+    margin: 1rem 0 0 0;
+    color: #dddcdc;
+    position: sticky;
+    top: -1vh;
+    padding: 1rem 3rem;
+    transition: 0.3s ease-in-out;
+    background-color: black;
+    /* background-color: #000000dc */
+}
+
+.tracks {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.row {
+    padding: 0.5rem 1rem;
+    display: grid;
+    grid-template-columns: 0.3fr 3.1fr 2fr 0.1fr;
+
+}
+
+.row:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    color: #dddcdc;
+}
+
+.col img {
+    height: 40px;
+    width: 40px;
+}
+
+.detail {
+    display: flex;
+    gap: 1rem;
+
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.pagination {
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+
+.pagination div {
+    padding: 5px 10px;
+    background-color: #49f585;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    cursor: pointer;
+}

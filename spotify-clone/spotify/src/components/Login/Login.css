@@ -1,0 +1,32 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1db954;
+    gap: 5rem;
+}
+
+.login-container-img {
+    height: 20%;
+    width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+    .login-container-img {
+        height: 20%;
+        width: 80%;
+    }
+}
+
+.login-container-button {
+    padding: 1rem 5rem;
+    border-radius: 5rem;
+    background-color: black;
+    color: #49f585;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
